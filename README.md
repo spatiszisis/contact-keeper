@@ -1,3 +1,7 @@
+![alt text](https://github.com/zisispa/contact-keeper/blob/master/contact-keeper-dashboard.PNG?raw=true)
+
+![alt text](https://github.com/zisispa/contact-keeper/blob/master/contact-keeper-dashboard.PNG?raw=true)
+
 ## About this Project
 
 This is a Contact Keeper implemented with React and Express.
