@@ -1,4 +1,4 @@
-![alt text](https://github.com/zisispa/contact-keeper/blob/master/contact-keeper-dashboard.PNG?raw=true)
+![alt text](https://github.com/zisispa/contact-keeper/blob/master/contact-keeper-login.PNG?raw=true)
 
 ![alt text](https://github.com/zisispa/contact-keeper/blob/master/contact-keeper-dashboard.PNG?raw=true)
 
