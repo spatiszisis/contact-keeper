@@ -6,10 +6,7 @@ import TextField from "@material-ui/core/TextField";
 import Dialog from "@material-ui/core/Dialog";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
-import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
-import Grid from "@material-ui/core/Grid";
-import Link from "@material-ui/core/Link";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
@@ -74,67 +71,6 @@ const ContactForm = ({ open, handleCloseDialog }) => {
   const clearAll = () => {
     clearCurrent();
   };
-
-  // return (
-  // <form onSubmit={onSubmit}>
-  //   <div className='page-header'>
-  //     <h1>{current ? "Edit Contact" : "Add Contact"}</h1>
-  //   </div>
-  //   <input
-  //     type='text'
-  //     placeholder='Name'
-  //     name='name'
-  //     value={name}
-  //     onChange={onChange}
-  //   />
-  //   <input
-  //     type='email'
-  //     placeholder='Email'
-  //     name='email'
-  //     value={email}
-  //     onChange={onChange}
-  //   />
-  //   <input
-  //     type='text'
-  //     placeholder='Phone'
-  //     name='phone'
-  //     value={phone}
-  //     onChange={onChange}
-  //   />
-  // <h5>Contact Type</h5>
-  // <input
-  //   type='radio'
-  //   name='type'
-  //   value='personal'
-  //   checked={type === "personal"}
-  //   onChange={onChange}
-  // />
-  // Personal{" "}
-  // <input
-  //   type='radio'
-  //   name='type'
-  //   value='professional'
-  //   checked={type === "professional"}
-  //   onChange={onChange}
-  // />
-  //   Professional{" "}
-  //   <div>
-  //     <input
-  //       type='submit'
-  //       value={current ? "Update Contact" : "Add Contact"}
-  //       className='btn btn-primary btn-block'
-  //     />
-  //   </div>
-  //   {current && (
-  //     <div>
-  //       <button className='btn btn-light btn-block' onClick={clearAll}>
-  //         Clear
-  //       </button>
-  //     </div>
-  //   )}
-  // </form>
-  // );
-
   return (
     <Dialog
       open={open}
@@ -195,32 +131,6 @@ const ContactForm = ({ open, handleCloseDialog }) => {
               />
             </RadioGroup>
           </FormControl>
-          {/* <h5>Contact Type</h5>
-          <input
-            type='radio'
-            name='type'
-            value='personal'
-            checked={type === "personal"}
-            onChange={onChange}
-          />
-          Personal{" "}
-          <input
-            type='radio'
-            name='type'
-            value='professional'
-            checked={type === "professional"}
-            onChange={onChange}
-          />
-          Professional{" "} */}
-          {/* <Button
-            type='submit'
-            fullWidth
-            variant='contained'
-            color='primary'
-            className={classes.submit}
-          >
-            Add Contact
-          </Button> */}
         </DialogContent>
         <DialogActions>
           <Button onClick={handleCloseDialog} color='primary'>

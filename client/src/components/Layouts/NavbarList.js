@@ -28,12 +28,6 @@ const NavbarList = () => {
   return (
     <>
       <List>
-        {/* <ListItem button>
-          <ListItemIcon>
-            <DashboardIcon />
-          </ListItemIcon>
-          <ListItemText primary='Dashboard' />
-        </ListItem> */}
         <ListItem button>
           <ListItemIcon>
             <ContactPhoneIcon />

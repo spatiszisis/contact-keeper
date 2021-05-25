@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import "./App.css";
 
-import Navbar from "./components/Layouts/Navbar";
 import About from "./components/Pages/About";
 import Home from "./components/Pages/Home";
 
